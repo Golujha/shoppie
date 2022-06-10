@@ -1,0 +1,38 @@
+database name = shoppie
+
+
+category
+    1. cat_id (int)
+    2. cat_title (varchar 200)
+
+
+orders
+   1. id (int)
+   2. ordered (int)
+   3. user_id (int)
+
+
+order_item
+   1. id (int)
+   2. ordered (varchar200)
+   3. user_id (int)
+   4. product_id (int)
+   5. order_id (int)
+   6. qty (varchar200)
+
+   products
+     1. id (int)
+     2. title (varchar200)
+     3.category(varchar200)
+     4.brand (varchar200)
+     5. price (float)
+     6. discount_price(float)
+     7. description(varchar200)
+     8. image(varchar200)
+
+users
+  1. id (int)
+  2.fullname(varchar200)
+  3.contact(varchar200)
+  4.email(varchar200)
+  5.password(varchar200)
